@@ -7,6 +7,7 @@ public class Platypus extends Mammal
 				name = "Platypus";
 				food = "shrimp";
 				noise = "growl";
+				myFly = (FlyingBehavior) new CannotFly();
 			}
 		public void bearsYoung()
 			{

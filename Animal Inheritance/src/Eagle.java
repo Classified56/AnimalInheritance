@@ -7,6 +7,7 @@ public class Eagle extends Bird
 				name = "Eagle";
 				food = "freedom";
 				noise = "screech";
+				myFly = (FlyingBehavior) new CanFly();
 			}
 
 	}

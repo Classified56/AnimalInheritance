@@ -7,6 +7,7 @@ public class Penguin extends Bird
 				name = "Penguin";
 				food = "fish";
 				noise = "bray";
+				myFly = (FlyingBehavior) new CannotFly();
 			}
 
 	}

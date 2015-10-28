@@ -7,6 +7,7 @@ public class Bat extends Mammal
 				name = "Bat";
 				food = "insects";
 				noise = "ultrasonic pulse";
+				myFly = (FlyingBehavior) new CanFly();
 			}
 		public void makeNoise()
 			{

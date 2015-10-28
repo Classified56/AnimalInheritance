@@ -12,6 +12,7 @@ public class AnimalRunner
 						biome[i].bearsYoung();
 						biome[i].makeNoise();
 						biome[i].eat();
+						biome[i].myFly.fly();
 						System.out.println();
 					}
 			}

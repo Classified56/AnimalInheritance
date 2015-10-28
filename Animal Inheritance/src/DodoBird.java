@@ -7,6 +7,7 @@ public class DodoBird extends Bird
 				name = "Dodo Bird";
 				food = "fruit";
 				noise = "nothing (it's dead)";
+				myFly = (FlyingBehavior) new CannotFly();
 			}
 
 	}

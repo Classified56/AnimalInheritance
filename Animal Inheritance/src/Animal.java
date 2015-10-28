@@ -4,6 +4,7 @@ public abstract class Animal
 		protected String name;
 		protected String food;
 		protected String noise;
+		protected FlyingBehavior myFly;
 		
 		protected void makeNoise()
 			{

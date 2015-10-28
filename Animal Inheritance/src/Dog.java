@@ -6,6 +6,7 @@ public class Dog extends Mammal
 				name = "Dog";
 				food = "dog food";
 				noise = "woof";
+				myFly = (FlyingBehavior) new CannotFly();
 			}
 
 	}
