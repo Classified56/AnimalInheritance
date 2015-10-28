@@ -12,6 +12,6 @@ public abstract class Animal
 		protected abstract void bearsYoung();
 		protected void eat()
 			{
-				System.out.println("The " + name + " says, *" + noise + "*");
+				System.out.println("It is excited to eat " + food + ".");
 			}
 	}
